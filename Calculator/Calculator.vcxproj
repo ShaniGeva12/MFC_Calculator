@@ -116,6 +116,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AboutDialog.cpp" />
     <ClCompile Include="CalcAboutDialog.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="CalculatorDlg.cpp" />

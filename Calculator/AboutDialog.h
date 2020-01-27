@@ -5,7 +5,7 @@
 
 class AboutDialog : public CDialogEx
 {
-	DECLARE_DYNAMIC(AboutDialog)
+	//DECLARE_DYNAMIC(AboutDialog);
 
 public:
 	AboutDialog(CWnd* pParent = nullptr);   // standard constructor
@@ -19,5 +19,5 @@ public:
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
 
-	DECLARE_MESSAGE_MAP()
+	//DECLARE_MESSAGE_MAP();
 };

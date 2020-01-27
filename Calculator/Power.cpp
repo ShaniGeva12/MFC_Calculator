@@ -8,7 +8,7 @@ Power::Power()
 int Power::DoPow(int num1, int num2)
 {
 
-		int i, res = 1;
+		int res = 1;
 		int exponent = num2;
 		int base = num1;
 		Mul mul;
